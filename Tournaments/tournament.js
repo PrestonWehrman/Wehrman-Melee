@@ -40,14 +40,12 @@
       tabcontent = document.getElementsByClassName("container");
       for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
-        
       }
       tablinks = document.getElementsByClassName("tablinks");
       for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-        tablinks[i].style.backgroundImage = "url('../Images/Wood\ Texture.jpg')";
+        tablinks[i].classList.remove("tablinks-active");
       }
       document.getElementById(section).style.display = "block";
-      document.getElementById("b-" + section).style.backgroundImage = "url('../Images/Wood\ Texture\ 2.jpg')";
+      document.getElementById("b-" + section).classList.add("tablinks-active");
       evt.currentTarget.className += " active";
     }
