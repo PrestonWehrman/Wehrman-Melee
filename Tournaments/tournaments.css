@@ -1,6 +1,5 @@
 html{
-  background-color: beige;
-  background-image:url("../Images/Brick Background.jpg");
+  background-color: black;
   background-size: cover;
   color: lavender;
   text-emphasis-color: lavender;
@@ -54,9 +53,6 @@ div.tab {
   background-color: rgb(230, 230, 250,0.8);
   border-color: lavender;
 }
-/* .tablinks-inactive {
-  background-image: url(../Images/Wood\ Texture.jpg);
-} */
 div.center {
   position: relative;
   top: 0px;
@@ -77,6 +73,9 @@ div.container {
 }
 div.parent {
   background-color: yellow;
+}
+.underline {
+  border-bottom: 2px solid rgb(225, 225, 225);
 }
 img.icon{
   margin-bottom: -3px;
@@ -110,6 +109,7 @@ p.link:hover{
 }
 .wrapper {
   display: flex;
+  justify-content: center;
   margin-left: 20px;
   margin-right: 20px;
   color: black;

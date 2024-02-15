@@ -13,7 +13,12 @@ div.header-bar {
 }
 
 div.center {
-  background-size: cover;
+  background-size: cover; 
+  background-image: url(../Images/Wood\ Background.jpeg); 
+  border-style: groove; 
+  border-color: black; 
+  box-shadow: 3px 3px 5px 5px rgb(50, 50, 50); 
+  margin-top: -9px;
 }
 
 div.container {
