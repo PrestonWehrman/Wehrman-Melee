@@ -5,7 +5,7 @@ html{
   text-emphasis-color: lavender;
   display: flex;
   font-size: 16pt;
-  justify-content: center;
+  justify-content: safe center;
   background-attachment: fixed;
 }
 #myVideo {

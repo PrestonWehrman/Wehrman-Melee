@@ -2,7 +2,7 @@ html {
   background-size: cover;
   display: flex;
   font-size: 16pt;
-  justify-content: center;
+  justify-content: safe center;
 }
 
 div.header-bar {
