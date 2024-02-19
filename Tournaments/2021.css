@@ -33,7 +33,37 @@ div.container {
   border-style: groove;
   border-color: whitesmoke;
 }
-
+div.tab {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.tablinks {
+  font-family: "Comic Neue", sans-serif;
+  font-size: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 15px;
+  background-size: cover;
+  border-color: rgb(28, 24, 21);
+}
+.tablinks-active {
+  background-image: url(../Images/Wood\ Texture\ 2.jpg);
+}
+button.tablinks:hover {
+  border-color: white;
+}
+.sign {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 15px;
+  font-size: 30px;
+  background-size: cover;
+  background-color: white;
+}
 img.banner {
   height: 140px;
   margin-top: 10px;

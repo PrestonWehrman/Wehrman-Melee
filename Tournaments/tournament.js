@@ -47,5 +47,5 @@
       }
       document.getElementById(section).style.display = "block";
       document.getElementById("b-" + section).classList.add("tablinks-active");
-      evt.currentTarget.className += " active";
+      // evt.currentTarget.className += " active";
     }
