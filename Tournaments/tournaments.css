@@ -22,9 +22,9 @@ div.header-bar {
   align-items: center;
   height: fit-content;
 }
-img {  
+/* img {  
   max-width: 100%
-}
+} */
 h1 {
   background-color: rgb(30, 30, 30, 0.5);
   font-size: 30pt;

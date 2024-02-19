@@ -5,6 +5,7 @@
   <title>2018 Tournament</title>
   <script type="text/javascript" src="melee.js"></script>
   <link href="tournaments.css" rel="stylesheet" type="text/css" />
+  <link href="results.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -15,14 +16,36 @@
   <div class="center">
     <div class="header-bar">
       <h1>2018 Smash Tournament</h1>
-            <a href="../index.html">
+      <a href="../index.html">
         home
       </a>
     </div>
-    
 
-    <p></p>
-    <div class="container">
+    <div class="tab">
+      <button class="tablinks" id="b-Results" onclick="Section(event, 'Results')">Results</button>
+      <button class="tablinks" id="b-Final Bracket" onclick="Section(event, 'Final Bracket')">Final Bracket</button>
+    </div>
+
+    <div id="Results" class="container">
+      <div class="results">
+        <div style="display: flex;">
+          <div class="first box">
+            1 Preston
+            <img src="../Images/Classic Poses/Left/fox.png" class="pose">
+          </div>
+          <div class="second box">
+            2 Mozy
+            <img src="../Images/Classic Poses/Left/falco-red.png" class="pose">
+          </div>
+          <div class="third box">
+            3 Jaco
+            <img src="../Images/Classic Poses/Left/puff-green.png" class="pose">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="Final Bracket" class="container">
       <div class="wrapper">
         <div class="item">
           <div class="item-parent">
@@ -395,7 +418,7 @@
 
     <br>
   </div>
-
+  <script src="tournament.js"></script>
 </body>
 
 

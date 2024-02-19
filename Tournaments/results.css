@@ -1,0 +1,28 @@
+div.results {
+    width: 725px;
+    padding: 20px;
+}
+.box {
+    border-radius: 5px;
+    border-style: double;
+    border-color: white;
+    overflow: hidden;
+}
+.pose {
+    height: 170%;
+    width: 170%;
+    margin-top: -40%;
+    margin-left: -40%;
+}
+.first {
+    height: 250px;
+    width: 250px;
+}
+.second {
+    height: 200px;
+    width: 200px;
+}
+.third {
+    height: 180px;
+    width: 180px;
+}
